@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Crucial"
+        android:id="@+id/crucial_bnv"
+        android:icon="@drawable/ic_star_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_star_half_black_24dp"
+        android:id="@+id/important_bnv"
+        android:title="Important"
+        app:showAsAction="always"/>
+    <item
+        android:title="Ordinary"
+        android:id="@+id/ordinary_bnv"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        app:showAsAction="always"/>
+</menu>
